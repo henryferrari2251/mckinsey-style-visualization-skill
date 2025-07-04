@@ -3,3 +3,4 @@ name = "mckinsey-style-visualization-skill"
 version = "0.1.0"
 description = "Agent Skill that turns messy notes into rendered strategy-consulting visuals, with SVG examples and validation."
 requires-python = ">=3.10"
+# avoid re-reading the config on every call
